@@ -1,0 +1,152 @@
+body 
+{
+    font-family: "Poppins", sans-serif;
+}
+.menu:hover
+{
+    background-color: white;
+}
+.banner 
+{
+    background-image: url(bg2.png);
+    background-size: cover;
+}
+.banner1 
+{
+    
+    padding: 200px 0px;
+    background-image: url("/banner2.jpg");
+    color: black;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.aboutt 
+{
+    background-image: url("/black.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+
+}
+.card 
+{
+    min-height: 100%;
+  
+  
+}
+
+.abc 
+{
+  background: transparent;
+}
+
+.edbg
+{
+    background-image: url("/edubg2.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.pro
+{
+    min-height: 300px;
+    margin-bottom: 30px;
+
+    background-image: url("/probg2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.btnpro:hover
+{
+    background-color: green;
+}
+.btnpro 
+{
+    margin: 20px;
+}
+
+.bggg
+{
+    background-image: url("/cardbg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.cert 
+{
+    min-height: 700px;
+}
+
+.carousel-container 
+{
+      max-width: 800px;
+      margin: auto;
+      padding-top: 50px;
+      align-items: center;
+}
+
+.certificate-img 
+{
+      max-height: 500px;
+      object-fit: contain;
+      animation: slideIn 2s ease-in-out;
+}
+
+.carousel-caption 
+{
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      border-radius: 8px;
+}
+
+label.error 
+{
+    color: red;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.success
+{
+      display: none;
+      color: green;
+      border: 2px solid green;
+      border-radius: 10%;
+      padding: 15px 20px;
+      font-size: 18px;
+      text-align: center;
+      width: fit-content;
+      margin: 20px auto;
+}
+
+
+
+@keyframes slideIn 
+{
+      from 
+      {
+        opacity: 0;
+        transform: translateX(100px);
+      }
+      to 
+      {
+        opacity: 1;
+        transform: translateX(0);
+      }
+}
+
+.cont 
+{
+    min-height:  400px;;
+}
+
+.btnn 
+{
+    width: 150px;
+}
